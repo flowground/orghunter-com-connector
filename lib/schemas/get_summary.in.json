@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "ein": {
+            "type": "string"
+        },
+        "searchTerm": {
+            "type": "string"
+        },
+        "city": {
+            "type": "string"
+        },
+        "state": {
+            "type": "string"
+        },
+        "zipCode": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "eligible": {
+            "type": "string"
+        },
+        "start": {
+            "type": "string"
+        },
+        "rows": {
+            "type": "string"
+        }
+    }
+}
