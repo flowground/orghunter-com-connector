@@ -5,11 +5,11 @@
 A generated **flow**ground connector for the OrgHunter API (version 1.0.0).
 
 Generated from: https://api.apis.guru/v2/specs/orghunter.com/1.0.0/swagger.json<br/>
-Generated at: 2019-05-07T17:43:29+03:00
+Generated at: 2019-07-08T14:35:57+03:00
 
 ## API Description
 
-Get the latest IRS data and most up to date charity information for your website or application
+Get the latest IRS data and most up to date charity information for your website or application<br/>
 
 ## Authorization
 
@@ -18,63 +18,57 @@ Supported authorization schemes:
 ## Actions
 
 ### Get categories!
-
-> <p>This operation provides a list of categories.</p>
+<blockquote><p>This operation provides a list of categories.</p></blockquote>
 
 *Tags:* `categories`
 
 ### Get details!
-
-> <p>This operation detail data.</p>
+<blockquote><p>This operation detail data.</p></blockquote>
 
 *Tags:* `details`
 
 #### Input Parameters
-* `ein` - _optional_ - ein (Employer Identification Number)
+* `ein` - _optional_ - ein (Employer Identification Number)<br/>
 
 ### Get details!
-
-> <p>This operation detail data.</p>
+<blockquote><p>This operation detail data.</p></blockquote>
 
 *Tags:* `CharityFinancial`
 
 #### Input Parameters
-* `ein` - _optional_ - ein (Employer Identification Number)
+* `ein` - _optional_ - ein (Employer Identification Number)<br/>
 
 ### Get details!
-
-> <p>This operation detail data.</p>
+<blockquote><p>This operation detail data.</p></blockquote>
 
 *Tags:* `GeoLocation`
 
 #### Input Parameters
-* `ein` - _optional_ - ein (Employer Identification Number)
+* `ein` - _optional_ - ein (Employer Identification Number)<br/>
 
 ### Get details!
-
-> <p>This operation detail data.</p>
+<blockquote><p>This operation detail data.</p></blockquote>
 
 *Tags:* `CharityPremium`
 
 #### Input Parameters
-* `ein` - _optional_ - ein (Employer Identification Number)
+* `ein` - _optional_ - ein (Employer Identification Number)<br/>
 
 ### Get summary data!
-
-> <p>This operation provides summary data.</p>
+<blockquote><p>This operation provides summary data.</p></blockquote>
 
 *Tags:* `summary`
 
 #### Input Parameters
-* `ein` - _optional_ - Employer Identification Number (EIN)
-* `searchTerm` - _optional_ - Charity Name or Keyword. Example: humane society or cancer
-* `city` - _optional_ - City Name. Example: Miami
-* `state` - _optional_ - State Name - Two letter state abbreviation
-* `zipCode` - _optional_ - Zipcode Value - 5 digit zipcode value
-* `category` - _optional_ - Category Value Selected from Categories API
-* `eligible` - _optional_ - eligible=1 will return only organizations that are tax deductible and in good standing with the IRS
-* `start` - _optional_ - Record Set Start Position
-* `rows` - _optional_ - Records Per Page. Default Value = 20
+* `ein` - _optional_ - Employer Identification Number (EIN)<br/>
+* `searchTerm` - _optional_ - Charity Name or Keyword. Example: humane society or cancer<br/>
+* `city` - _optional_ - City Name. Example: Miami<br/>
+* `state` - _optional_ - State Name - Two letter state abbreviation<br/>
+* `zipCode` - _optional_ - Zipcode Value - 5 digit zipcode value<br/>
+* `category` - _optional_ - Category Value Selected from Categories API<br/>
+* `eligible` - _optional_ - eligible=1 will return only organizations that are tax deductible and in good standing with the IRS<br/>
+* `start` - _optional_ - Record Set Start Position<br/>
+* `rows` - _optional_ - Records Per Page. Default Value = 20<br/>
 
 ## License
 

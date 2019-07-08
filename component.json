@@ -19,7 +19,7 @@
                 "label": "Custom Server URL",
                 "viewClass": "TextFieldView"
             },
-            "user_key": {
+            "auth_user_key": {
                 "label": "user_key (user_key)",
                 "viewClass": "TextFieldView",
                 "note": "Your API access key"
@@ -38,7 +38,7 @@
         "get_categories": {
             "main": "./lib/actions/get_categories.js",
             "title": "Get categories!",
-            "description": "<p>This operation provides a list of categories.</p>",
+            "description": "This operation provides a list of categories.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -55,7 +55,7 @@
         "post_v1_charitybasic": {
             "main": "./lib/actions/post_v1_charitybasic.js",
             "title": "Get details!",
-            "description": "<p>This operation detail data.</p>",
+            "description": "This operation detail data.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -72,7 +72,7 @@
         "post_v1_charityfinancial": {
             "main": "./lib/actions/post_v1_charityfinancial.js",
             "title": "Get details!",
-            "description": "<p>This operation detail data.</p>",
+            "description": "This operation detail data.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -89,7 +89,7 @@
         "post_v1_charitygeolocation": {
             "main": "./lib/actions/post_v1_charitygeolocation.js",
             "title": "Get details!",
-            "description": "<p>This operation detail data.</p>",
+            "description": "This operation detail data.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -106,7 +106,7 @@
         "post_v1_charitypremium": {
             "main": "./lib/actions/post_v1_charitypremium.js",
             "title": "Get details!",
-            "description": "<p>This operation detail data.</p>",
+            "description": "This operation detail data.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -123,7 +123,7 @@
         "get_summary": {
             "main": "./lib/actions/get_summary.js",
             "title": "Get summary data!",
-            "description": "<p>This operation provides summary data.</p>",
+            "description": "This operation provides summary data.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
